@@ -41,7 +41,7 @@ const PlaceholderVilla = ({ scrollProgress }) => {
     <group ref={groupRef} position={[0, -0.5, 0]}>
       {/* Corpo principale */}
       <mesh position={[0, 0, 0]} castShadow receiveShadow>
-        <boxGeometry args={[4, 2, 3]} />
+        <boxGeometry args={[8, 4, 2]} />
         <meshStandardMaterial color="#ffffff" roughness={0.1} metalness={0.1} />
       </mesh>
       {/* Vetrata/Piscina */}
