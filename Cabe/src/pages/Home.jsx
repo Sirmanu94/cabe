@@ -7,6 +7,8 @@ import Servizi from '../components/Servizi';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import MotoParallaxHero from '../components/MotoParallaxHero';
+import MovingCarScene from '../components/MovingCarScene';
+import ScuderiaFeatures from '../components/ScuderiaFerrari';
 
 const Home = () => {
   const location = useLocation();
@@ -28,7 +30,9 @@ const Home = () => {
   return (
     <>
       {/* Sostituiamo il Canvas 3D e la vecchia Hero con il nuovo, ultra-wow parallasse cinematografico */}
-      <MotoParallaxHero></MotoParallaxHero>
+      <MovingCarScene/>
+      <ScuderiaFeatures />
+      <MotoParallaxHero/>
       <HeroParallax /> 
 
       {/* Questo div contiene il resto delle sezioni, scorre SOPRA la Hero

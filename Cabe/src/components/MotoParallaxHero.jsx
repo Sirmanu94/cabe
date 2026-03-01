@@ -81,10 +81,7 @@ const MotoParallaxHero = () => {
         >
           <img src={motoImg} alt="Moto" className="max-w-[80%] max-h-[80%] object-contain" />
         </motion.div>
-<div className="absolute inset-0 z-20 w-full h-full pointer-events-auto">
-          {/* Gli passi il MotionValue nativo di Framer Motion! */}
-          <ArchitectureCanvas scrollProgress={scrollYProgress} />
-        </div>
+
         {/* 4. SCINTILLE / VELOCITÀ (Primo piano estremo) */}
         <motion.div style={{ scale: scaleSparks, opacity: opacitySparks }} className="absolute inset-0 z-50 w-full h-full origin-center pointer-events-none">
           <img src={sparksImg} alt="Sparks" className="w-full h-full object-cover object-center" />
